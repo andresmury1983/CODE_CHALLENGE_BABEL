@@ -1,0 +1,10 @@
+com\myproyect\spring\mysneakers\MySneakersApp.class
+com\myproyect\spring\mysneakers\controller\MySneakersRestController$1.class
+com\myproyect\spring\mysneakers\model\Sneaker.class
+com\myproyect\spring\mysneakers\utils\ConvertJson.class
+com\myproyect\spring\mysneakers\service\SneakersService.class
+com\myproyect\spring\mysneakers\model\AvailableSize.class
+com\myproyect\spring\mysneakers\domain\SneakersResponse.class
+com\myproyect\spring\mysneakers\respository\SneakersRepository.class
+com\myproyect\spring\mysneakers\controller\MySneakersRestController.class
+com\myproyect\spring\mysneakers\domain\SneakersRequest.class

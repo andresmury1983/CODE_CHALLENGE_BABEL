@@ -1,0 +1,19 @@
+
+<div>
+    <a>Cesta</a>
+</div>
+<div class="col-sm-12 text-center" *ngFor="let sneaker  of (sneakerCar ? sneakerCar.slice(0,30): [])">
+    <div class = "row"> 
+        <div class="col-sm-6">
+            <img src="{{sneaker.image}}" class="card-img-top col-sm-8" >  
+        </div>
+        <div class="card text-center col-sm-6">
+            <p> {{sneaker.brand}}  -  {{sneaker.model}} </p>   
+            <p>Fecha Lanzamiento :  {{sneaker.launchDate}} </p>
+            <p>Precio:  $ {{sneaker.price}} </p>
+            <p>Talla:  $ {{sneaker.size}} </p>  
+            
+        </div>  
+         
+  </div>  
+</div>
